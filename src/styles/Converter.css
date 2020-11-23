@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    width: 100vw;
+    height: 7vh;
+    background-color: #7DD6D6;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionOne {
+    width: 100vw;
+    height: 20vh;
+    margin: 50px 0px;
+    padding: 0px 150px;
+    background-color: #e2e2e2;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionOne input {
+    width: 50vw;
+    height: 6vh;
+    border: 0px;
+    border-radius: 7px;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: grey;
+}
+
+.sectionOne input::placeholder {
+    color: rgb(185, 180, 180);
+}
+
+.sectionOne button {
+    width: 15vw;
+    height: 6vh;
+    border: 0;
+    border-radius: 6px;
+    background-color: #6ec0c0;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(230, 228, 228);
+    cursor: pointer;
+}
+
+.sectionOne button:hover {
+    color: white;
+    background-color: #7DD6D6;
+}
+
+.result {
+    width: 100vw;
+    height: 15vh;
+    background-color: #7DD6D6;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.result label {
+    color: white;
+    font-size: 22px;
+}
